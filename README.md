@@ -1,1 +1,6 @@
-# semaphore-debate
+# Presidential Debate Simulation in C!
+
+From the project description:
+"The first 2020 presidential debate is held in UMAss Amherst by CPD (Commission on Presidential Debates), which chooses a different format for this debate that the questions for candidates are collected from audiences. This assignment is a simulation of calling to propose questions by multiple audiences at the same time. This is a tricky assignment that illustrates threads, synchronization, and critical sections. The code is not long, but the details are subtle. You will write a simulation to post the questions from a phone answering system in the CPD. 
+
+Let us imagine that to post a question each person must make a phone call to the call center of CPD as soon as the debate starts. Here we will assume that there are five call lines, but only two operators. When a phone call arrives, we check if there is a free line. If so, the phone rings and the caller is considered connected; otherwise it is busy. Once the phone rings, we wait until there is a free operator. When we get one, we simulate the process of proposing a question. Each phone call is represented by a thread, and you may have more threads running than phone lines."
